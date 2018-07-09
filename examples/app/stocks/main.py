@@ -41,7 +41,7 @@ from bokeh.models import ColumnDataSource
 from bokeh.models.widgets import PreText, Select
 from bokeh.plotting import figure
 
-DATA_DIR = join(dirname(__file__), 'daily')
+DATA_DIR = join(dirname('__file__'), 'daily')
 
 DEFAULT_TICKERS = ['AAPL', 'GOOG', 'INTC', 'BRCM', 'YHOO']
 
